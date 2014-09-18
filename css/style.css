@@ -1,0 +1,164 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1;
+  background: #F2F2F2;
+}
+
+section {
+  float: left;
+  width: 33.333333333%;
+  padding: 64px;
+}
+
+.oster {
+  position: relative;
+  height: 192px;
+  width: 128px;
+  margin: 0 auto;
+  background: #A6A497;
+  border-radius: 32px;
+  box-shadow: 0 0 20px #E5E5E5;
+}
+
+.oster .slot {
+  position: relative;
+  float: left;
+  height: 128px;
+  width: 32px;
+  margin: 32px 16px;
+  background: #000;
+}
+
+.oster .slot:hover {
+  cursor: pointer;
+}
+
+.oster .slot > div {
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  height: 112px;
+  width: 24px;
+  background: #FFE1C4;
+  text-align: center;
+  overflow: hidden;
+}
+
+.oster .slot > div span {
+  display: block;
+  padding: 0 8px;
+  -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.oster .slide {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  height: 16px;
+  width: 32px;
+  margin-left: -16px;
+  background: #000;
+  border-radius: 0 0 4px 4px;
+}
+
+.oster .slide:hover {
+  cursor: pointer;
+}
+
+.oster .label {
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  color: #1F2F3F;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.oster .label.toasting {
+  color: crimson;
+}
+
+.plate {
+  position: relative;
+  height: 192px;
+  width: 192px;
+  margin: 0 auto;
+  background: #FFF;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #E5E5E5;
+}
+
+.plate > div {
+  height: 80px;
+  width: 80px;
+  color: #FFF;
+  font-size: .5em;
+  text-align: center;
+  line-height: 80px;
+}
+
+.plate .soft {
+  background-color: #FFE1C4;
+}
+
+.plate .warm {
+  background-color: #FFE1C4;
+}
+
+.plate .toasty {
+  background-color: #B7A18C;
+}
+
+.plate .burnt {
+  background-color: #4F3632;
+}
+
+.plate .total {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 900;
+}
+
+ul li {
+  height: 64px;
+  width: 192px;
+  margin: 0 auto;
+  color: #FFF;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 64px;
+}
+
+ul li:hover {
+  cursor: pointer;
+}
+
+.slice {
+  background: #63A599;
+}
+
+.bun {
+  background: #465057;
+}
+
+.roll {
+  background: #1F2F3F;
+}
